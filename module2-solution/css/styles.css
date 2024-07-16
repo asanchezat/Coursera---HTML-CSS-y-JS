@@ -1,0 +1,68 @@
+body {
+    font-family: 'Playwrite BE WAL', sans-serif; /* Example font-family */
+}
+
+h1 {
+    text-align: center; /* Centra el texto horizontalmente */
+    margin-top: 20px; /* Margen desde la parte superior */
+    padding: 10px 20px;
+    
+}
+
+.section {
+    border: 1px solid black;
+    margin-bottom: 20px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: relative;
+    background-color: #DADAD6;
+}
+
+.section h2 {
+    font-size: 1.25em; /* 75% más grande que el texto del párrafo */
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    margin: 0;
+    padding: 5px;
+}
+
+#chicken {
+    background-color: #FF95E4;
+}
+
+#beef {
+    background-color: #ED5149;
+}
+
+#sushi {
+    background-color: #FDFF95;
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .section {
+        width: calc(50% - 20px); /* Ajusta el ancho para dejar espacio entre las secciones */
+        float: left;
+        margin-right: 40px; /* Espacio entre las secciones */
+        margin-bottom: 40px; /* Espacio debajo de las secciones */
+    }
+
+    .section:nth-child(3n) {
+        margin-right: 0; /* Elimina el margen derecho para cada segunda sección */
+    }
+
+    .section:nth-child(4) {
+        width: 100%; /* Ajuste para que la tercera sección ocupe toda la fila */
+        clear: both; /* Limpia los floats anteriores */
+        margin-right: 0; /* Elimina el margen derecho de la tercera sección */
+        margin-bottom: 40px; /* Espacio debajo de la tercera sección */
+    }
+}
+
+@media (max-width: 767px) {
+    .section {
+        width: 100%;
+    }
+}
