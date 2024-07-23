@@ -41,6 +41,7 @@ h1 {
     background-color: #FDFF95;
 }
 
+
 @media (min-width: 768px) and (max-width: 991px) {
     .section {
         width: calc(50% - 20px); /* Ajusta el ancho para dejar espacio entre las secciones */

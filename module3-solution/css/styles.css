@@ -1,0 +1,48 @@
+body {
+    padding-top: 20px;
+    background-color: #EDECCF; /* Fondo de la página */
+  }
+  
+  .navbar {
+    margin-bottom: 20px;
+    background-color: #207178; /* Fondo de la barra de navegación */
+    border-color: #101652; /* Borde de la barra de navegación */
+  }
+  
+  .navbar-brand {
+    color: #F1C694 !important; /* Color del texto de la marca */
+  }
+  
+  .navbar-toggle {
+    border-color: #F1C694; /* Borde del botón de toggle en móviles */
+  }
+  
+  .icon-bar {
+    background-color: #F1C694; /* Color de las barras del toggle en móviles */
+  }
+  
+  .navbar-nav > li > a {
+    color: #F1C694 !important; /* Color de los enlaces del menú en móviles */
+  }
+  
+  h1 {
+    margin-top: 20px;
+    color: #101652; /* Color del título principal */
+  }
+  
+  .menu-item {
+    background-color: #F1C694; /* Fondo de la sección del menú */
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 5px;
+  }
+  
+  .menu-item h2 {
+    color: #DC6378; /* Color del título de la sección del menú */
+  }
+  
+  .menu-item p {
+    color: #101652; /* Color del texto de la sección del menú */
+    height: 1000px; /* Para asegurar que la sección sea lo suficientemente alta para el desplazamiento */
+  }
+  
